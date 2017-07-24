@@ -32,7 +32,7 @@ export class HomePage {
 
   initMap() {
     // console.log(this.geolocation.getCurrentPosition());
-    //https://github.com/SebastianM/angular-google-maps
+    //https://github.com/SebastianM/angular-google-mapss
     this.geolocation.getCurrentPosition().then((resp) => {
       this.map = new google.maps.Map(this.mapElement.nativeElement, {
       zoom: 19,
